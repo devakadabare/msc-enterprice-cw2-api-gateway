@@ -5,7 +5,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "fitnessappuserservice.azurewebsites.net"
+          "Host": "fitnessapp-user-service.azurewebsites.net"
         }
       ],
       "UpstreamPathTemplate": "/user/{everything}",
@@ -16,7 +16,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "fitnessappworkoutservice.azurewebsites.net"
+          "Host": "fitnessapp-workout-service.azurewebsites.net"
         }
       ],
       "UpstreamPathTemplate": "/workout/{everything}",
