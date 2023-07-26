@@ -14,9 +14,8 @@ builder.Services.AddCors(options =>
     builder =>
     {
         builder.WithOrigins(
-            "http://localhost:3000",
-            "https://fitnessappweb.z13.web.core.windows.net"
-            ) // React Web app running URL
+            "http://localhost:3000"
+            )
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
